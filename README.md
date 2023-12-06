@@ -17,6 +17,11 @@ The CMake build system will automatically download libigl and its dependencies u
 [CMake FetchContent](https://cmake.org/cmake/help/latest/module/FetchContent.html),
 thus requiring no setup on your part.
 
+Also need 
+```
+sudo apt install xorg-dev
+```
+
 To use a local copy of libigl rather than downloading the repository via FetchContent, you can use
 the CMake cache variable `FETCHCONTENT_SOURCE_DIR_LIBIGL` when configuring your CMake project for
 the first time:
